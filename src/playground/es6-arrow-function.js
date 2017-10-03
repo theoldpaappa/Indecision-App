@@ -38,3 +38,41 @@ let firstNameTwo;
 
 const getFirstNameTwo = (firstNameTwo) => fullNameTwo.split(' ')[0];
 console.log(getFirstNameTwo(firstNameTwo));
+
+
+
+
+
+
+
+// If options exist - function example
+/*
+function getOptions(options) {
+    if (options) {
+        return <p>Here are your options: {options}</p>;
+    } else {
+        return <p>No options exist!</p>;
+    }
+}
+*/
+
+/* Basics
+const user = {
+    name: 'seppo',
+    age: 23,
+    location: 'heö'
+};
+function getLocation(location) {
+    if (location) {
+        return <p>Location: {location}</p>;
+    }
+}                  
+
+const templateTwo = (
+    <div>
+        <h1>{user.name ? user.name : 'Anonymous'}</h1>
+        {(user.age && user.age >= 18) && <p>{user.age}</p>}
+        {getLocation(user.location)}
+    </div>
+);
+*/
